@@ -5,6 +5,7 @@ console.log("location: " + location);
 
 if (location) {
     switch (location) {
+        default:
         case "home":
             page = "20%253A2360";
             break;
@@ -26,8 +27,6 @@ if (location) {
         case "templates":
             page = "218%3A1734";
             break;
-        default:
-            page = "20%253A2360";
     }
 
     // Swap out iframe embed id to navigate straight to the requested page
